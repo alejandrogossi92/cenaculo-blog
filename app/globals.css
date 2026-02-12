@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maria-bg: #F8F9FA;
+  --color-maria-card: #FFFFFF;
+  --color-maria-primary: #2A3B4F;
+  --color-maria-muted: #6E7A8A;
+  --color-maria-accent-blue: #4A6C9B;
+  --color-maria-accent-gold: #D4AF37;
+  --color-maria-border: #E9ECEF;
+}
+
+/* Estilos base opcionales */
+body {
+  background-color: var(--color-maria-bg);
+  color: var(--color-maria-primary);
+}
+

@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Vercel
+.vercel
+
+# Miscellaneous
+.DS_Store
+*.pem
+
+# Environment variables
+.env.local
+.env
