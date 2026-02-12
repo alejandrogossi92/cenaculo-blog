@@ -70,7 +70,8 @@ export default defineType({
               options: {
                 list: [
                   {title: 'Documento PDF', value: 'pdf'},
-                  {title: 'Video Externo', value: 'video'}
+                  {title: 'Video Externo', value: 'video'},
+                  {title: 'Imagen', value: 'imagen'}
                 ]
               }
             },
@@ -85,6 +86,13 @@ export default defineType({
               type: 'file', 
               title: 'Archivo (Solo para PDFs)',
               hidden: ({parent}) => parent?.tipo !== 'pdf'
+            },
+            {
+              name: 'imagen',
+              type: 'image',
+              title: 'Imagen',
+              options: { hotspot: true },
+              hidden: ({parent}) => parent?.tipo !== 'imagen'
             }
           ]
         }

@@ -43,10 +43,12 @@ Aplicación web estilo blog minimalista para el "Cenáculo de Jóvenes" (grupo d
 - **Layout (`app/layout.tsx`):** Cabecera y pie de página globales.
 
 ## Próximos Pasos Pendientes
-**Despliegue en Vercel:** Solucionar error de build de TypeScript para lograr un despliegue exitoso.
-2.  **Ajustes Visuales:** Refinar estilos del texto enriquecido (imágenes, listas, citas).
-3.  **Funcionalidad de Recursos:** Mejorar la sección de recursos para embeber videos de YouTube.
-4.  **Dominio:** (Opcional) Conectar un dominio personalizado en Vercel.
+1.  **[COMPLETADO] Despliegue en Vercel:** Configuración de repositorio limpio, variables de entorno y despliegue exitoso.
+2.  **[COMPLETADO] Configuración Studio:** Configuración de CORS y acceso al panel de administración en producción.
+3.  **[COMPLETADO] Diseño:** Actualizar paleta de colores a tonos tierra/marrón y grises.
+4.  **[COMPLETADO] Funcionalidad de Recursos:** Permitir adjuntar imágenes (además de archivos y links) en los encuentros.
+5.  **Ajustes Visuales:** Refinar estilos del texto enriquecido (Portable Text).
+6.  **Dominio:** (Opcional) Conectar un dominio personalizado en Vercel.
 
 ## Comandos Úteis
 - Iniciar servidor de desarrollo: `npx next dev`

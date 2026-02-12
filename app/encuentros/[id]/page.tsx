@@ -29,7 +29,7 @@ async function getEncuentro(slug: string) {
           titulo,
           tipo,
           // Si es un archivo subido a Sanity, obtenemos su URL real. Si es un link externo, usamos 'url'
-          "url": coalesce(archivo.asset->url, url)
+          "url": coalesce(archivo.asset->url, imagen.asset->url, url)
         }
       }
     `, { slug });
